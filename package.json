@@ -1,0 +1,20 @@
+{
+  "name": "import-demo",
+  "version": "1.0.0",
+  "description": "Demo of browser that refreshes when files change",
+  "main": "app.js",
+  "dependencies": {
+    "chokidar": "^3.4.0",
+    "express": "^4.17.1",
+    "koa": "^2.11.0",
+    "nodemon": "^2.0.3",
+    "ws": "^7.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Anthony Ng <newyork.anthonyng@gmail.com> (http://anthonyng.me)",
+  "license": "MIT"
+}
